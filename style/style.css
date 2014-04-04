@@ -1,0 +1,19 @@
+
+/* Basic container and layout */
+
+html,body {
+    background-color: #000000;
+}
+
+#splashtopouter{
+	width:100%;
+}
+
+#splashtopinner {
+    display: table;
+    margin: 0 auto;
+    text-align:center;
+}
+
+h2 {font-weight:bold;color:#06ff00;font-family:Arial, Helvetica, sans-serif; font-size:40px;text-decoration:none;}  
+
