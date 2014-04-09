@@ -18,6 +18,8 @@
     //
     function onDeviceReady() {
         navigator.geolocation.getCurrentPosition(onSuccess, onError);
+        var options = { enableHighAccuracy: true }; // also try with false.
+        navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
     }
 
     // onSuccess Geolocation
