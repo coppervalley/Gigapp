@@ -3,10 +3,12 @@
 
 html,body {
     background-color: #000000;
+    height:100%;
 }
 
 #splashtopouter{
 	width:100%;
+	height:100%;
 }
 
 #splashtopinner {
