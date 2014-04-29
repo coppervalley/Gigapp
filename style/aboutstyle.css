@@ -16,12 +16,14 @@ a {outline : none;}
 }
 
 #abouttopinner {
+	height:10%; 
     display: table;
     margin: 0 auto;
     text-align:center;
 }
 
 #abouttitleinner {
+	height:10%; 
     display: table;
     margin: 0 auto;
     text-align:center;
@@ -47,6 +49,7 @@ a {outline : none;}
 }
 
 #basenav {
+	height:20%; 
 	display: table;
     margin: 0 auto;
     text-align:center;
