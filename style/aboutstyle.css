@@ -4,6 +4,7 @@
 html,body {
     background-color: #000000;
     height:100%;
+    overflow: hidden;
 }
 
 img {border:0;}
@@ -12,7 +13,6 @@ a {outline : none;}
 #abouttopouter{
 	width:100%;
 	overflow: hidden;
-	 height:100%;
 }
 
 #abouttopinner {
@@ -29,7 +29,7 @@ a {outline : none;}
 }
 
 #aboutmain {
-	height:66%; 
+	height:60%; 
 	overflow-y:scroll;
     margin: 0 auto;
 
