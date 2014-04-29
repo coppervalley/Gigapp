@@ -7,7 +7,9 @@
 
 <link rel="stylesheet" href="style/aboutstyle.css">
 
- <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+<script type="text/javascript" charset="utf-8" src="script/jquery3.js"></script>
+ 
     <script type="text/javascript" charset="utf-8">
     
   function getDistanceFromLatLonInM(lat1,lon1,lat2,lon2) {
@@ -62,6 +64,12 @@ function deg2rad(deg) {
     }
 
     </script>
+
+<script type="text/javascript"> 
+$(document).ready(function() {
+        $('#abouttopinner').delay(1000).fadeOut('slow');
+      });
+</script>
 
 
 </head>
