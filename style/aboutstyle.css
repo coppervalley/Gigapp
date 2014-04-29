@@ -36,6 +36,7 @@ a {outline : none;}
 
 }
 #gigsmain { 
+	height: 100%;
 	overflow-y:scroll;
     margin: 0 auto;
 
