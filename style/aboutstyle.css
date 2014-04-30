@@ -77,12 +77,10 @@ float:left;
 #basenav {display: none;}
 #landscapenav {
 	width:80px;
-	height:100%;
 	float:left;
 	}
 #abouttopouter{
 	float:right;
-	height:80%;
 	overflow: hidden;
 }
 
