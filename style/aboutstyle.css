@@ -18,6 +18,7 @@ a {outline : none;}
 #abouttopouter{
 	width:100%;
 	height:80%;
+	overflow: hidden;
 }
 
 #abouttopinner {
@@ -81,7 +82,6 @@ float:left;
 #abouttopouter{
 	width:80%;
 	float:right;
-	overflow: hidden;
 }
 
 #abouttopinner {
