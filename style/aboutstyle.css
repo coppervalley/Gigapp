@@ -65,7 +65,7 @@ float:left;
 	}
 	
 	img.navigation {
-width:33%;
+width:80px;
 float:left;
 	}
 
@@ -81,7 +81,7 @@ float:left;
 	float:left;
 	}
 #abouttopouter{
-	width:100%;
+	float:right;
 	height:80%;
 	overflow: hidden;
 }
@@ -123,7 +123,7 @@ float:left;
 	}
 	
 	img.navigation {
-width:33%;
+width:80px;
 float:left;
 	}
 }
