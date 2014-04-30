@@ -77,6 +77,11 @@ function deg2rad(deg) {
         var element = document.getElementById('geolocation');
         element.innerHTML = 'Latitude: '           + position.coords.latitude              + '<br />' +
                             'Longitude: '          + position.coords.longitude             + '<br />' ;
+                            
+                            //once per week check for new venues, or when app is open, download and store in localstorage or database
+                            //check latlong every 10 minutes or when page opens, keep app running in background
+                            //call getDistanceFromLatLonInM, check against stored array of venue latlongs, local storage or database
+                            //if less than 10m trigger event, reward and store loyalty points, access server
     }
 
     // onError Callback receives a PositionError object
@@ -94,6 +99,12 @@ function deg2rad(deg) {
 </head>
 
 <body>
+
+<div id="landscapenav">
+<a href="maingigs.html"><img class= "navigation" src="images/nav1a.png"></a>
+<a href="wheregigs.html"><img class= "navigation" src="images/nav2.png"></a>
+<a href="calendar.html"><img class= "navigation" src="images/nav3.png"></a>
+</div>
 <div id="abouttopouter">  
     <div id="abouttopinner">
     <img src="images/bigoad.png" class= "toptitle">
