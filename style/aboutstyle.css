@@ -76,10 +76,11 @@ float:left;
 {
 #basenav {display: none;}
 #landscapenav {
-	width:80px;
+	width:20%;
 	float:left;
 	}
 #abouttopouter{
+	width:80%;
 	float:right;
 	overflow: hidden;
 }
@@ -104,7 +105,6 @@ float:left;
 
 }
 #gigsmain { 
-	height: 100%;
 	overflow-y:scroll;
     margin: 0 auto;
 
